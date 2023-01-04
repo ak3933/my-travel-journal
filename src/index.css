@@ -1,13 +1,101 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 550px;
+  font-family: "Inter";
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav--main{
+  height: 55px;
+  background: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-bottom: 80px;
+}
+#nav--globe-icon{
+  height: 24px;
+  width: 24px;
+  padding-right: 7px;
+}
+#nav--title{
+  font-size: 14.4608px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.catalog--main{
+  margin: 0px 40px;
+  padding: 20px 0px;
+  display: flex;
+}
+.catalog--img{
+  height: 168px;
+  width: 125px;
+  border-radius: 5px;
+  padding-right: 19px;
+}
+.catalog--details{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.catalog--location{
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
+.catalog--pin-img{
+  height: 9.5px;
+  width: 7px;
+  padding-right: 4px;
+}
+.catalog--country{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  padding-right: 12px;
+}
+.catalog--loc-url{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+.catalog--title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+  padding-bottom: 14px;
+  margin: 0;
+}
+.catalog--timerange{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+  margin: 0;
+  padding-bottom: 9px;
+}
+.catalog--description{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2B283A;
+}
+.catalog--borderLine{
+  height: 0px;
+  left: 40px;
+  top: 493px;
+  border: 1px solid #918E9B;
 }
